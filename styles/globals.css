@@ -2,10 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    body {
-        @apply bg-white text-black dark:bg-gray-800 dark:text-white;
-        @apply min-h-screen;
-        @apply transition
-    }
+@layer base {
+  body {
+    @apply bg-white text-black dark:bg-gray-800 dark:text-white font-kanit;
+    @apply min-h-screen;
+    @apply transition;
+  }
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./font/Kanit/Kanit-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./font/Kanit/Kanit-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./font/Kanit/Kanit-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./font/Kanit/Kanit-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./font/Kanit/Kanit-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./font/Kanit/Kanit-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./font/Kanit/Kanit-Regular.ttf") format("truetype");
 }
