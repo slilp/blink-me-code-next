@@ -8,7 +8,12 @@ const Layout: FC<Props> = ({ children }) => {
   return (
     <>
       <NavBar></NavBar>
-      <main className="container mx-auto px-4 my-4">{children}</main>
+      <main
+        className="container mx-auto px-4 my-4"
+        style={{ minHeight: "74.5vh" }}
+      >
+        {children}
+      </main>
       <Footer></Footer>
     </>
   );
