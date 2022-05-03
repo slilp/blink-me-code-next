@@ -1,7 +1,5 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import { FcIdea, FcBriefcase, FcOk } from "react-icons/fc";
 import {
   BsCaretRightFill,
@@ -12,14 +10,6 @@ import {
 import Image from "next/image";
 
 const Home: NextPage = () => {
-  const { theme, setTheme } = useTheme();
-  const [mouted, setMounted] = useState<boolean>(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-  if (!mouted) return null;
-
   return (
     <div>
       <div className="grid grid-cols-1  md:grid-cols-2 gap-2">

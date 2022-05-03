@@ -5,7 +5,6 @@ import { BsCaretRightFill } from "react-icons/bs";
 function Content() {
   return (
     <div>
-      <div className="h-14"></div>
       <p className="text-5xl text-center">
         My Creative <span className="text-indigo-500">Blog</span> Section{" "}
       </p>

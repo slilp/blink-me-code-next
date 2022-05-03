@@ -1,10 +1,18 @@
-import { FC, ReactNode } from "react";
+import { FC, ReactNode, useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 type Props = { children: ReactNode };
 
 const Layout: FC<Props> = ({ children }) => {
+  const [mouted, setMounted] = useState<boolean>(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  if (!mouted) return null;
+
   return (
     <>
       <NavBar></NavBar>
