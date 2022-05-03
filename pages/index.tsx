@@ -32,20 +32,20 @@ const Home: NextPage = () => {
             For official job I have 3 years experienced in full stack web
             development with ASP.NET Core. For my personal I am eager to learn
             new things in react web framework , API with node.js (express) and
-            get some freelance job for real world project so I'm confident to
-            work with them like my official skill too.
+            get some freelance job for real world project so I confident to work
+            with them like my official skill too.
           </p>
           <br></br>
-          <button className="flex items-center justify-center gap-3 text-lg lg:text-xl bg-indigo-500 rounded-full p-4 hover:opacity-90 hover:transition w-96 ">
+          <button className="flex items-center justify-center gap-3 text-lg lg:text-xl bg-indigo-500 rounded-full p-4 hover:opacity-90 hover:transition w-96">
             <BsPersonCircle> </BsPersonCircle>
             Click to Download My Resume !
           </button>
         </div>
         <div className="mx-auto my-6 order-1 md:order-2">
-          <img
+          {/* <img
             className="object-cover h-96 w-96"
             src="https://www.it24hrs.com/wp-content/uploads/2020/05/facebook-avatars-how-to-create-avatar-b.jpg"
-          ></img>
+          ></img> */}
         </div>
       </div>
 
@@ -108,7 +108,7 @@ const Home: NextPage = () => {
                     jquery , css (boostrap)
                   </li>
                   <li>
-                    Back End : RESTful API's ASP.NET Core with N-Tier
+                    Back End : RESTful APIs ASP.NET Core with N-Tier
                     architecture ( data , business , presentation )
                   </li>
                   <li>Deploy docker containers on AWS.</li>
@@ -180,7 +180,7 @@ const Home: NextPage = () => {
             Blogs <p className="font-thin">Knowledge reminding</p>
             <p className="font-thin">what I have learned.</p>
           </p>
-          <Link href="/blog">
+          <Link href="/blog" passHref>
             <button className="flex items-center justify-center gap-2 text-md bg-indigo-500 rounded-full p-4 hover:opacity-90 hover:transition w-44">
               See more
               <BsCaretRightFill> </BsCaretRightFill>
@@ -198,7 +198,7 @@ const Home: NextPage = () => {
           <p className="text-3xl">
             Portfolio <p className="font-thin">My personal projects</p>
           </p>
-          <Link href="/portfolio">
+          <Link href="/portfolio" passHref>
             <button className="text-md flex items-center justify-center gap-2 bg-indigo-500 rounded-full p-4 hover:opacity-90 hover:transition w-44">
               See more
               <BsCaretRightFill> </BsCaretRightFill>
@@ -215,7 +215,7 @@ const Home: NextPage = () => {
       </div>
       <br></br>
       <div className="flex flex-wrap gap-3 justify-center">
-        <div className="relative border-2 border-indigo-500 p-4 h-48 text-center">
+        <div className="relative border-2 border-indigo-500 p-4 h-44 text-center">
           <div
             className="absolute -top-3 mx-0 left-1/2 bg-indigo-400 p-2 rounded-lg"
             style={{ transform: "translate(-50%, 0)" }}
@@ -229,7 +229,7 @@ const Home: NextPage = () => {
                 src="/react_logo.png"
                 alt="React"
                 width={100}
-                height={100}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -240,26 +240,15 @@ const Home: NextPage = () => {
                 src="/nextjs_logo.png"
                 alt="Next.js"
                 width={100}
-                height={100}
+                height={85}
                 layout="fixed"
                 className="rounded"
               ></Image>
               <p>Next.js</p>
             </div>
-            <div>
-              <Image
-                src="/redux_logo.png"
-                alt="Redux"
-                width={100}
-                height={100}
-                layout="fixed"
-                className="rounded "
-              ></Image>
-              <p>Redux</p>
-            </div>
           </div>
         </div>
-        <div className="relative border-2 border-indigo-500 p-4 h-48 text-center">
+        <div className="relative border-2 border-indigo-500 p-4 h-44 text-center">
           <div
             className="absolute -top-3 mx-0 left-1/2 bg-indigo-400 p-2 rounded-lg"
             style={{ transform: "translate(-50%, 0)" }}
@@ -273,7 +262,7 @@ const Home: NextPage = () => {
                 src="/jest_logo.png"
                 alt="Jest"
                 width={100}
-                height={100}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -281,7 +270,52 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="relative border-2 border-indigo-500 p-4 h-48 text-center">
+        <div className="relative border-2 border-indigo-500 p-4 h-44 text-center">
+          <div
+            className="absolute -top-3 mx-0 left-1/2 bg-indigo-400 p-2 rounded-lg"
+            style={{ transform: "translate(-50%, 0)" }}
+          >
+            CSS framework
+          </div>
+          <br></br>
+          <div className="flex gap-5">
+            <div>
+              <Image
+                src="/tailwind_logo.png"
+                alt="Tailwind"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Tailwind</p>
+            </div>
+            <div>
+              <Image
+                src="/mui_logo.png"
+                alt="MaterialUI"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Material-UI</p>
+            </div>
+
+            <div>
+              <Image
+                src="/bootstrap_logo.png"
+                alt="Boostrap"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Boostrap</p>
+            </div>
+          </div>
+        </div>
+        <div className="relative border-2 border-indigo-500 p-4 h-44 text-center">
           <div
             className="absolute -top-3 mx-0 left-1/2 bg-indigo-400 p-2 rounded-lg"
             style={{ transform: "translate(-50%, 0)" }}
@@ -295,7 +329,7 @@ const Home: NextPage = () => {
                 src="/nodejs_logo.jpeg"
                 alt="Node.js"
                 width={100}
-                height={100}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -305,8 +339,8 @@ const Home: NextPage = () => {
               <Image
                 src="/express_logo.png"
                 alt="Express"
-                width={150}
-                height={100}
+                width={135}
+                height={85}
                 layout="fixed"
                 className="rounded"
               ></Image>
@@ -317,7 +351,7 @@ const Home: NextPage = () => {
                 src="/nestjs_logo.svg"
                 alt="Nest"
                 width={100}
-                height={100}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -328,7 +362,7 @@ const Home: NextPage = () => {
       </div>
       <br></br>
       <div className="flex flex-wrap gap-3 justify-center">
-        <div className="relative border-2 border-indigo-500 p-4 h-48 text-center">
+        <div className="relative border-2 border-indigo-500 p-4 h-44 text-center">
           <div
             className="absolute -top-3 mx-0 left-1/2 bg-indigo-400 p-2 rounded-lg"
             style={{ transform: "translate(-50%, 0)" }}
@@ -342,7 +376,7 @@ const Home: NextPage = () => {
                 src="/jira_logo.png"
                 alt="Jira"
                 width={125}
-                height={100}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -352,8 +386,8 @@ const Home: NextPage = () => {
               <Image
                 src="/postman_logo.png"
                 alt="Postman"
-                width={250}
-                height={100}
+                width={225}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -362,7 +396,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="relative border-2 border-indigo-500 p-4 h-48 text-center">
+        <div className="relative border-2 border-indigo-500 p-4 h-44 text-center">
           <div
             className="absolute -top-3 mx-0 left-1/2 bg-indigo-400 p-2 rounded-lg"
             style={{ transform: "translate(-50%, 0)" }}
@@ -375,8 +409,8 @@ const Home: NextPage = () => {
               <Image
                 src="/sql_logo.jpeg"
                 alt="sql"
-                width={150}
-                height={100}
+                width={100}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -387,7 +421,7 @@ const Home: NextPage = () => {
                 src="/mongo_logo.jpeg"
                 alt="Mongo"
                 width={100}
-                height={100}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -397,8 +431,8 @@ const Home: NextPage = () => {
               <Image
                 src="/mysql_logo.jpeg"
                 alt="MySql"
-                width={125}
-                height={100}
+                width={100}
+                height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -408,11 +442,91 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="flex text-2xl gap-3 items-center">
+      <div className="flex text-2xl gap-3 items-center my-5">
         <span>
           <FcIdea></FcIdea>
         </span>
         <span>Skill I am interesting to learn</span>
+      </div>
+      <div className="flex flex-wrap gap-3 justify-center">
+        <div className="relative border-2 border-indigo-500 p-4 h-44 text-center">
+          <div
+            className="absolute -top-3 mx-0 left-1/2 bg-indigo-400 p-2 rounded-lg"
+            style={{ transform: "translate(-50%, 0)" }}
+          >
+            BackEnd
+          </div>
+          <br></br>
+          <div className="flex gap-5">
+            <div>
+              <Image
+                src="/golang_logo.png"
+                alt="Go"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Golang</p>
+            </div>
+            <div>
+              <Image
+                src="/gin_logo.png"
+                alt="Gin"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Gin Framework</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="relative border-2 border-indigo-500 p-4 h-44 text-center">
+          <div
+            className="absolute -top-3 mx-0 left-1/2 bg-indigo-400 p-2 rounded-lg"
+            style={{ transform: "translate(-50%, 0)" }}
+          >
+            Blockchain
+          </div>
+          <br></br>
+          <div className="flex gap-5">
+            <div>
+              <Image
+                src="/solidity_logo.png"
+                alt="solidity"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Solidity</p>
+            </div>
+            <div>
+              <Image
+                src="/eter_js.png"
+                alt="Eter"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Eter.js</p>
+            </div>
+            <div>
+              <Image
+                src="/web3_logo.png"
+                alt="Web3"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Web3.js</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

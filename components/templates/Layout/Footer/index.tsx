@@ -6,7 +6,6 @@ function Footer() {
       <div className="container mx-auto">
         <div className="flex">
           <div className="mb-6 md:mb-0">
-            <img className="mr-4 h-10" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Blink me code
             </span>
