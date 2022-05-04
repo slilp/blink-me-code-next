@@ -7,7 +7,7 @@ function Header() {
       <div className="flex flex-col justify-center order-2 md:order-1">
         <p className="text-3xl  lg:text-5xl font-bold">Hi, I am Blink.</p>
         <p className="text-3xl  lg:text-5xl font-bold">
-          I am a Fullstack developer
+          I am a Software Engineer
         </p>
         <br></br>
         <p className="text-lg lg:text-xl font-thin">

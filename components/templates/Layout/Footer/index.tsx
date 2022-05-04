@@ -82,7 +82,9 @@ function Footer() {
             </div>
           </div>
         </div>
-        <span className="text-sm">© 2022 . All Rights Reserved.</span>
+        <span className="hidden md:block text-sm">
+          © 2022 . All Rights Reserved.
+        </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0"></div>
       </div>
     </footer>
