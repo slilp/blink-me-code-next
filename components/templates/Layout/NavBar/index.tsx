@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FaRegMoon, FaRegLightbulb, FaHamburger } from "react-icons/fa";
 import { useTheme } from "next-themes";
 
@@ -11,12 +12,20 @@ function NavBar() {
     <nav className="my-5">
       <div className="container grid grid-cols-2 lg:grid-cols-3 h-20 items-center mx-auto ">
         <Link href="/" passHref>
-          <span className="font-bold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-gray-200 to-indigo-500 cursor-pointer pl-2">
-            Blink Me Code
-          </span>
+          <div className="flex items-center font-bold text-2xl md:text-3xl gap-1 pl-2 cursor-pointer">
+            <Image
+              src="/btc.png"
+              alt="Blink"
+              width={30}
+              height={30}
+              layout="fixed"
+              className="rounded"
+            ></Image>
+            link Me Code
+          </div>
         </Link>
         <div className="hidden lg:flex justify-center">
-          <ul className="flex flex-row gap-5 justify-center text-2xl">
+          <ul className="flex flex-row gap-5 justify-center text-2xl font-semibold">
             <li>
               <Link href="/" passHref>
                 <span className="transition cursor-pointer hover:border-b-2 p-2 hover:border-black dark:hover:border-white">
@@ -85,7 +94,7 @@ function NavBar() {
       {open && (
         <div className="bg-transparent w-screen">
           <br></br>
-          <div className="flex flex-col justify-center items-center text-2xl">
+          <div className="flex flex-col justify-center items-center text-2xl font-semibold">
             <div className="border-t-2 border-b-2  border-gray-300 w-full h-14 flex items-center justify-center">
               <Link href="/" passHref>
                 <span
