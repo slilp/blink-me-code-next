@@ -24,10 +24,10 @@ function Header() {
         </button>
       </div>
       <div className="mx-auto my-6 order-1 md:order-2">
-        <img
+        {/* <img
           className="object-cover h-76 w-76"
           src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/pages/product/home-page-hero-refreshed-v3.png"
-        ></img>
+        ></img> */}
       </div>
     </div>
   );

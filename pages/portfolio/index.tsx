@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import { PortCard } from "components/organisms";
 import { Tag } from "utils/enum";
 
@@ -21,6 +20,7 @@ const Portfolio: NextPage = () => {
         </button>
       </div>
       <PortCard
+        key="wax"
         id="wax"
         title="WAX game monitor"
         tags={[Tag.REACT, Tag.GO]}

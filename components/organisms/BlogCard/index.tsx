@@ -33,7 +33,10 @@ function BlogCard({
       <div className="relative h-40 w-full rounded-t-xl bg-red-600 mb-3"></div>
       <div className="h-6 flex gap-1 mb-3">
         {tags.map((tag: Tag) => (
-          <span className="bg-blue-100 rounded-full text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 dark:bg-blue-200 ">
+          <span
+            key={`blog-card-${tag}`}
+            className="bg-blue-100 rounded-full text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 dark:bg-blue-200 "
+          >
             {tag}
           </span>
         ))}

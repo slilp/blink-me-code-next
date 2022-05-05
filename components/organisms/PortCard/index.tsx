@@ -28,7 +28,10 @@ function PortCard({ id, title, tags, desc, pic, url, link }: PortCardProps) {
       <div className="h-96">
         <div className="h-6 flex gap-1 mb-3">
           {tags.map((tag: Tag) => (
-            <span className="bg-blue-100 rounded-full text-yellow-800 text-sm font-medium mr-2 px-2.5 py-0.5 dark:bg-yellow-200 ">
+            <span
+              key={`post-card-${tag}`}
+              className="bg-blue-100 rounded-full text-yellow-800 text-sm font-medium mr-2 px-2.5 py-0.5 dark:bg-yellow-200 "
+            >
               {tag}
             </span>
           ))}
