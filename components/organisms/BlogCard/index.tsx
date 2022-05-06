@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsCaretRightFill } from "react-icons/bs";
 import { Tag } from "utils/enum";
-
 export interface BlogCardProps {
   id: string;
   title: string;
@@ -27,18 +26,25 @@ function BlogCard({
   return (
     <div
       key={id}
-      className="relative text-black shadow-2xl rounded-xl dark:bg-gray-200 p-3 transition cursor-pointer"
+      className="relative text-black shadow-2xl rounded-xl dark:bg-gray-200 p-3 cursor-pointer"
       style={{ height: "425px" }}
     >
-      <div className="relative h-40 w-full rounded-t-xl bg-red-600 mb-3"></div>
+      <div
+        style={{
+          backgroundImage: `url("${pic}")`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+        className="relative h-40 w-full rounded-t-xl mb-3"
+      ></div>
       <div className="h-6 flex gap-1 mb-3">
         {tags.map((tag: Tag) => (
-          <span
+          <div
             key={`blog-card-${tag}`}
-            className="bg-blue-100 rounded-full text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 dark:bg-blue-200 "
+            className="bg-gray-100 dark:bg-gray-300 text-gray-800 text-sm font-medium rounded-lg p-2 flex items-center"
           >
             {tag}
-          </span>
+          </div>
         ))}
       </div>
       <p className="text-xl">{title}</p>
