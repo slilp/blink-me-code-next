@@ -17,3 +17,8 @@ export enum TagColor {
   BLOCK = "yellow",
   OTHER = "gray",
 }
+
+export enum PortfolioType {
+  FULL = "FullProject",
+  MINI = "MiniProject",
+}

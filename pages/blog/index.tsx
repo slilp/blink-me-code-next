@@ -10,7 +10,7 @@ const Blog: NextPage = () => {
     <div>
       <p className="text-5xl text-center font-bold my-10">
         Welcome to My
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-pink-500">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-pink-500 mx-2">
           Block
         </span>
         😀

@@ -12,11 +12,20 @@ interface PostProps {
   source: MDXRemoteSerializeResult;
 }
 
+const Callout = ({ children }: any) => (
+  <div className="bg-red-500">{children}</div>
+);
+
+const components = {
+  // ... All my other components
+  Callout,
+};
+
 const Post: NextPage<PostProps> = ({ source }) => {
   return (
-    <div>
-      <MDXRemote {...source} />
-    </div>
+    <article className="font-kanit text-lg dark:text-white w-full md:w-3/4 mx-auto prose max-w-none">
+      <MDXRemote {...source} components={components} />
+    </article>
   );
 };
 

@@ -6,7 +6,7 @@ function Contact() {
     <div className="flex flex-col gap-10 justify-center align-middle mt-10 text-center">
       <p className="text-5xl text-center font-bold my-10">
         Please Feel Free To
-        <span className=" mx-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-sky-900">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-sky-900 mx-2">
           Contact
         </span>
         Me
@@ -18,10 +18,10 @@ function Contact() {
           }}
           className="text-white text-lg flex items-center justify-around gap-2 bg-blue-600 rounded-lg p-4 hover:opacity-90 hover:transition w-64"
         >
-          <span className="text-3xl">
+          <span className="text-3xl w-12">
             <FaGithub> </FaGithub>
           </span>
-          GitHub
+          <span className="w-12">GitHub</span>
         </button>
         <button
           onClick={() => {
@@ -29,10 +29,10 @@ function Contact() {
           }}
           className="text-white text-lg flex items-center justify-around gap-2 bg-sky-600 rounded-lg p-4 hover:opacity-90 hover:transition w-64"
         >
-          <span className="text-3xl">
+          <span className="text-3xl w-12">
             <FaLinkedin> </FaLinkedin>
           </span>
-          LinkedIn
+          <span className="w-12">LinkedIn</span>
         </button>
         <button
           onClick={() => {
@@ -40,16 +40,16 @@ function Contact() {
           }}
           className="text-white text-lg flex items-center justify-around gap-2 bg-green-600 rounded-lg p-4 hover:opacity-90 hover:transition w-64"
         >
-          <span className="text-3xl">
+          <span className="text-3xl w-12">
             <FaLine> </FaLine>
           </span>
-          LINE
+          <span className="w-12">LINE</span>
         </button>
         <button className="text-white text-lg flex items-center justify-around gap-2 bg-pink-500 rounded-lg p-4 hover:opacity-90 hover:transition w-64">
-          <span className="text-xl">
+          <span className="text-xl w-7 pl-3">
             <FaPhoneAlt> </FaPhoneAlt>
           </span>
-          087-500-6783
+          <span>0875006783</span>
         </button>
       </div>
     </div>

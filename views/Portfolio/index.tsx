@@ -1,1 +1,1 @@
-export { default as WaxGameMonitor } from "./WaxGameMonitor";
+export { default as Content } from "./Content";

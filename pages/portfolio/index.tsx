@@ -1,8 +1,11 @@
+import { useState } from "react";
 import type { NextPage } from "next";
-import { PortCard } from "components/organisms";
-import { Tag } from "utils/enum";
+import { PortfolioType } from "utils/enum";
+import { Content } from "views/Portfolio";
 
 const Portfolio: NextPage = () => {
+  const [selectSearch, setSearch] = useState<PortfolioType>(PortfolioType.FULL);
+
   return (
     <div>
       <p className="text-5xl text-center font-bold my-10">
@@ -12,24 +15,28 @@ const Portfolio: NextPage = () => {
         </span>
       </p>
       <div className="flex justify-center gap-4 my-10 flex-wrap">
-        <button className="text-white border-2 border-blue-600 bg-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition">
+        <button
+          className={
+            selectSearch === PortfolioType.FULL
+              ? "text-white border-2 border-blue-600 bg-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition"
+              : "border-2 border-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition"
+          }
+          onClick={() => setSearch(PortfolioType.FULL)}
+        >
           🚀 Full project
         </button>
-        <button className="border-2 border-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition">
+        <button
+          className={
+            selectSearch === PortfolioType.MINI
+              ? "text-white border-2 border-blue-600 bg-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition"
+              : "border-2 border-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition"
+          }
+          onClick={() => setSearch(PortfolioType.MINI)}
+        >
           🚴 Mini project
         </button>
       </div>
-      <PortCard
-        key="wax"
-        id="wax"
-        title="WAX game monitor"
-        tags={[Tag.REACT, Tag.GO]}
-        desc=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-       omnis sed vel aspernatur mollitia exercitationem"
-        pic="/portfolio/wax_1.PNG"
-        url="https://www.typescriptlang.org/docs/handbook/enums.html"
-        link="/portfolio/waxgame"
-      />
+      <Content search={selectSearch} />
     </div>
   );
 };
