@@ -25,6 +25,7 @@ function PortCard({ id, title, tags, desc, pic, url, link }: PortCardProps) {
           backgroundImage: `url("${pic}")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          imageRendering: "-webkit-optimize-contrast",
         }}
       ></div>
       <div className="h-64">

@@ -22,7 +22,7 @@ export interface PortfolioDetail {
 const portfolios: PortfolioList[] = [
   {
     id: "000001",
-    title: "WAX game monitor",
+    title: "WAX Game Monitor",
     desc: "Gaming monitor and calculator for Wax GameFi",
     pic: "wax-game-1.PNG",
     link: "https://blink-game.com",
@@ -39,7 +39,7 @@ const portfolios: PortfolioList[] = [
       {
         title: "Custom price calculation",
         pic: "wax-game-3.PNG",
-        desc: "You can customize the token price to see predict your future investment.",
+        desc: "You can customize the token price to predict your future investment.",
       },
       {
         title: "Portfolio tracking",
@@ -50,29 +50,67 @@ const portfolios: PortfolioList[] = [
   },
   {
     id: "000002",
-    title: "My personal blog",
+    title: "My Personal Blog",
     desc: "My own static blog with MDX",
-    pic: "wax_1.PNG",
-    link: "https://blink-game.com",
+    pic: "blog-1.PNG",
+    link: "http://localhost:3000/blog",
     tags: [Tag.REACT, Tag.NEXT],
     more: "my-blog",
     type: PortfolioType.FULL,
     theme: "",
     detail: [
       {
-        title: "Calculate ROI",
-        pic: "wax_1.PNG",
-        desc: "สวัสดีครับผม",
+        title: "Dark mode",
+        pic: "blog-2.PNG",
+        desc: "Dark mode style support",
       },
       {
-        title: "Custom price",
-        pic: "wax_1.PNG",
-        desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, soluta ullam quos minus necessitatibus dolore laboriosam veniam voluptas suscipit blanditiis ex voluptatum ratione officiis ad nulla obcaecati eos doloremque saepe?",
+        title: "Searching",
+        pic: "blog-3.PNG",
+        desc: "Search by blog content type",
       },
       {
-        title: "Portdolio tracking",
-        pic: "wax_1.PNG",
-        desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, soluta ullam quos minus necessitatibus dolore laboriosam veniam voluptas suscipit blanditiis ex voluptatum ratione officiis ad nulla obcaecati eos doloremque saepe?",
+        title: "Post content",
+        pic: "blog-4.PNG",
+        desc: "Post content from MDX file",
+      },
+    ],
+  },
+  {
+    id: "000003",
+    title: "My App Starter Pack",
+    desc: "Starter app project examples for ready to implement.",
+    pic: "starter-1.PNG",
+    link: "https://github.com/slilp/blink-starter-pack",
+    tags: [Tag.NODE, Tag.NEST, Tag.GO, Tag.REACT],
+    more: "starter-app",
+    type: PortfolioType.MINI,
+    theme: "",
+    detail: [
+      {
+        title: "Express + Sequelize",
+        pic: "starter-2.png",
+        desc: "Example Rest APIs from express framework app with sequelize ORM and Mysql database",
+      },
+      {
+        title: "Express + Mongoose",
+        pic: "starter-3.png",
+        desc: "Example Rest APIs from express framework app with mongoose ODM and MongoDB database",
+      },
+      {
+        title: "NestJS + TypeORM",
+        pic: "starter-4.png",
+        desc: "Example Rest APIs from NestJS framework app with TypeORM and Mysql database",
+      },
+      {
+        title: "Gin + Gorm",
+        pic: "starter-5.png",
+        desc: "In Development",
+      },
+      {
+        title: "React",
+        pic: "starter-6.png",
+        desc: "In Development",
       },
     ],
   },

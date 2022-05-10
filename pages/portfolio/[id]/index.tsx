@@ -48,9 +48,10 @@ const PortfolioContent: NextPage<PortfolioProps> = ({
           backgroundImage: `url("${pic}")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          imageRendering: "-webkit-optimize-contrast",
         }}
       ></div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 my-5">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 my-10">
         {detail.map((info, index) => (
           <div key={`feature-${index}`}>
             <Image

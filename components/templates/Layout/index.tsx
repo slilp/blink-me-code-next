@@ -7,9 +7,11 @@ type Props = { children: ReactNode };
 
 const Layout: FC<Props> = ({ children }) => {
   const [mouted, setMounted] = useState<boolean>(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
+    if (theme === "system") setTheme("light");
   }, []);
   if (!mouted) return null;
 

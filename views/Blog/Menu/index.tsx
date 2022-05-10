@@ -20,17 +20,6 @@ function Menu({ searchTag = "All", setSelectTag }: MenuProp) {
               : " transition duration-200 flex items-center justify-center gap-3 border-2 border-blue-500 text-lg rounded-xl p-3"
           }
         >
-          {menu.pic && (
-            <Image
-              src={menu.pic}
-              alt={menu.id}
-              width={30}
-              height={27.5}
-              layout="fixed"
-              className="rounded "
-            ></Image>
-          )}
-
           {menu.label}
         </button>
       ))}

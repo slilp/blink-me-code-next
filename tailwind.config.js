@@ -14,6 +14,15 @@ module.exports = {
       colors: {
         nest: "#FFFEFC",
       },
+      animation: {
+        fade: "fadeOut 10s ease-in-out",
+      },
+      keyframes: (theme) => ({
+        fadeOut: {
+          "0%": { backgroundColor: theme("colors.red.300") },
+          "100%": { backgroundColor: theme("colors.transparent") },
+        },
+      }),
     },
   },
   plugins: [require("@tailwindcss/typography")],

@@ -37,6 +37,7 @@ function BlogCard({
             backgroundImage: `url("${pic}")`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
+            imageRendering: "-webkit-optimize-contrast",
           }}
           className="relative h-40 w-full rounded-xl mb-3"
         ></div>
