@@ -1,5 +1,5 @@
 import { PortCard } from "components/organisms";
-import portfolios from "./portfolios";
+import portfolios from "config/portfolios";
 import { PortfolioType } from "utils/enum";
 import { FaRegGrinBeamSweat } from "react-icons/fa";
 

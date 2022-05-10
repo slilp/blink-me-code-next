@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction } from "react";
 import Image from "next/image";
 import { Tag } from "utils/enum";
-import menus from "./menus";
+import menus from "config/menus";
 interface MenuProp {
   searchTag: Tag | "All";
   setSelectTag: Dispatch<SetStateAction<Tag | "All">>;

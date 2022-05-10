@@ -3,7 +3,6 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./views/**/*.{js,ts,jsx,tsx,mdx}",
-    "./_posts/**/*.{mdx}",
   ],
   darkMode: "class",
   theme: {

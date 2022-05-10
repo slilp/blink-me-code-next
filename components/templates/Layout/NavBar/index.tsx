@@ -14,7 +14,7 @@ function NavBar() {
         <Link href="/" passHref>
           <div className="flex items-center font-bold text-2xl md:text-3xl gap-1 pl-2 cursor-pointer">
             <Image
-              src="/btc.png"
+              src="/icon/btc.png"
               alt="Blink"
               width={30}
               height={30}

@@ -23,7 +23,7 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/react_logo.png"
+                src="/icon/react_logo.png"
                 alt="React"
                 width={100}
                 height={85}
@@ -34,7 +34,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/nextjs_logo.png"
+                src="/icon/nextjs_logo.png"
                 alt="Next.js"
                 width={100}
                 height={85}
@@ -56,7 +56,7 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/jest_logo.png"
+                src="/icon/jest_logo.png"
                 alt="Jest"
                 width={100}
                 height={85}
@@ -78,7 +78,7 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/tailwind_logo.png"
+                src="/icon/tailwind_logo.png"
                 alt="Tailwind"
                 width={100}
                 height={85}
@@ -89,7 +89,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/mui_logo.png"
+                src="/icon/mui_logo.png"
                 alt="MaterialUI"
                 width={100}
                 height={85}
@@ -101,7 +101,7 @@ function Skill() {
 
             <div>
               <Image
-                src="/bootstrap_logo.png"
+                src="/icon/bootstrap_logo.png"
                 alt="Boostrap"
                 width={100}
                 height={85}
@@ -123,7 +123,7 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/nodejs_logo.jpeg"
+                src="/icon/nodejs_logo.jpeg"
                 alt="Node.js"
                 width={100}
                 height={85}
@@ -134,7 +134,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/express_logo.png"
+                src="/icon/express_logo.png"
                 alt="Express"
                 width={135}
                 height={85}
@@ -145,7 +145,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/nestjs_logo.svg"
+                src="/icon/nestjs_logo.svg"
                 alt="Nest"
                 width={100}
                 height={85}
@@ -170,7 +170,7 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/jira_logo.png"
+                src="/icon/jira_logo.png"
                 alt="Jira"
                 width={125}
                 height={85}
@@ -181,7 +181,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/postman_logo.png"
+                src="/icon/postman_logo.png"
                 alt="Postman"
                 width={225}
                 height={85}
@@ -204,7 +204,7 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/sql_logo.jpeg"
+                src="/icon/sql_logo.jpeg"
                 alt="sql"
                 width={100}
                 height={85}
@@ -215,7 +215,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/mongo_logo.jpeg"
+                src="/icon/mongo_logo.jpeg"
                 alt="Mongo"
                 width={100}
                 height={85}
@@ -226,7 +226,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/mysql_logo.jpeg"
+                src="/icon/mysql_logo.jpeg"
                 alt="MySql"
                 width={100}
                 height={85}
@@ -258,7 +258,7 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/golang_logo.png"
+                src="/icon/golang_logo.png"
                 alt="Go"
                 width={100}
                 height={85}
@@ -269,7 +269,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/gin_logo.png"
+                src="/icon/gin_logo.png"
                 alt="Gin"
                 width={100}
                 height={85}
@@ -292,7 +292,7 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/solidity_logo.png"
+                src="/icon/solidity_logo.png"
                 alt="solidity"
                 width={100}
                 height={85}
@@ -303,7 +303,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/eter_js.png"
+                src="/icon/eter_js.png"
                 alt="Eter"
                 width={100}
                 height={85}
@@ -314,7 +314,7 @@ function Skill() {
             </div>
             <div>
               <Image
-                src="/web3_logo.png"
+                src="/icon/web3_logo.png"
                 alt="Web3"
                 width={100}
                 height={85}
