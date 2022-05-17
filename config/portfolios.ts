@@ -5,6 +5,7 @@ export interface PortfolioList {
   title: string;
   desc: string;
   pic: string;
+  git: string;
   more: string;
   link: string;
   tags: Tag[];
@@ -21,11 +22,41 @@ export interface PortfolioDetail {
 
 const portfolios: PortfolioList[] = [
   {
+    id: "000005",
+    title: "Blockchain Voting App",
+    desc: "VOTE ME UP is a decentralized voting platform with smartcontract on polygon network.",
+    pic: "voting-1.png",
+    link: "https://vote-me-up.netlify.app",
+    git: "https://github.com/slilp/voting-app",
+    tags: [Tag.BLOCK, Tag.REACT],
+    more: "voting-app",
+    type: PortfolioType.FULL,
+    theme: "",
+    detail: [
+      {
+        title: "Create new voting",
+        pic: "voting-2.png",
+        desc: "Create new voting on smartcontract",
+      },
+      {
+        title: "Share voting you create",
+        pic: "voting-3.png",
+        desc: "Start your voting and share to voters you want.",
+      },
+      {
+        title: "View result of voting",
+        pic: "voting-4.png",
+        desc: "See voting result.",
+      },
+    ],
+  },
+  {
     id: "000001",
     title: "WAX Game Monitor",
     desc: "Gaming monitor and calculator for Wax GameFi",
     pic: "wax-game-1.PNG",
     link: "https://blink-game.com",
+    git: "https://github.com/slilp/wax-game-monitor",
     tags: [Tag.REACT, Tag.NEXT],
     more: "wax-game",
     type: PortfolioType.FULL,
@@ -51,9 +82,10 @@ const portfolios: PortfolioList[] = [
   {
     id: "000002",
     title: "My Personal Blog",
-    desc: "My own static blog with MDX",
+    desc: "My own blog",
     pic: "blog-1.PNG",
     link: "http://localhost:3000/blog",
+    git: "https://github.com/slilp/blink-me-code-next",
     tags: [Tag.REACT, Tag.NEXT],
     more: "my-blog",
     type: PortfolioType.FULL,
@@ -71,8 +103,8 @@ const portfolios: PortfolioList[] = [
       },
       {
         title: "Post content",
-        pic: "blog-4.PNG",
-        desc: "Post content from MDX file",
+        pic: "blog-1.PNG",
+        desc: "In process to migrate to MDX",
       },
     ],
   },
@@ -82,6 +114,7 @@ const portfolios: PortfolioList[] = [
     desc: "Starter app project examples for ready to implement.",
     pic: "starter-1.PNG",
     link: "https://github.com/slilp/blink-starter-pack",
+    git: "",
     tags: [Tag.NODE, Tag.NEST, Tag.GO, Tag.REACT],
     more: "starter-app",
     type: PortfolioType.MINI,
@@ -113,6 +146,19 @@ const portfolios: PortfolioList[] = [
         desc: "In Development",
       },
     ],
+  },
+  {
+    id: "000004",
+    title: "Ecommerce Platform",
+    desc: "Frontend + Backend for example ecommerce platform",
+    pic: "ecom_1.png",
+    link: "https://github.com/slilp/ecommerce-platform",
+    git: "",
+    tags: [Tag.NODE, Tag.REACT],
+    more: "",
+    type: PortfolioType.MINI,
+    theme: "",
+    detail: [],
   },
 ];
 

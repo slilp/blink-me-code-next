@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { BsCaretRightFill } from "react-icons/bs";
 import { Tag } from "utils/enum";
 export interface BlogCardProps {
   id: string;
@@ -26,36 +25,39 @@ function BlogCard({
   link,
 }: BlogCardProps) {
   return (
-    <Link href={link} passHref>
+    // <Link href={link} passHref>
+    <div
+      key={id}
+      onClick={() => {
+        window.open(link, "_blank");
+      }}
+      className="p-2 relative cursor-pointer border-2 border-transparent rounded-xl transition duration-200 hover:border-sky-500"
+      style={{ minHeight: "375px" }}
+    >
       <div
-        key={id}
-        className="p-2 relative cursor-pointer border-2 border-transparent rounded-xl transition duration-200 hover:border-sky-500"
-        style={{ minHeight: "375px" }}
-      >
-        <div
-          style={{
-            backgroundImage: `url("${pic}")`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            imageRendering: "-webkit-optimize-contrast",
-          }}
-          className="relative h-40 w-full rounded-xl mb-3"
-        ></div>
-        <div className="h-6 flex gap-1 my-5">
-          {tags.map((tag: Tag) => (
-            <div
-              key={`blog-card-${tag}`}
-              className="bg-gray-100 dark:bg-gray-300 text-gray-800 text-sm font-medium rounded-lg p-2 flex items-center"
-            >
-              {tag}
-            </div>
-          ))}
-        </div>
-        <p className="text-xl">{title}</p>
-        <p className="text-md text-gray-600">{published}</p>
-        <p className="text-base text-gray-500">{desc}</p>
+        style={{
+          backgroundImage: `url("${pic}")`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          imageRendering: "-webkit-optimize-contrast",
+        }}
+        className="relative h-40 w-full rounded-xl mb-3"
+      ></div>
+      <div className="h-6 flex gap-1 my-5">
+        {tags.map((tag: Tag) => (
+          <div
+            key={`blog-card-${tag}`}
+            className="bg-gray-100 dark:bg-gray-300 text-gray-800 text-sm font-medium rounded-lg p-2 flex items-center"
+          >
+            {tag}
+          </div>
+        ))}
       </div>
-    </Link>
+      <p className="text-xl">{title}</p>
+      <p className="text-md text-gray-600">{published}</p>
+      <p className="text-base text-gray-500">{desc}</p>
+    </div>
+    // </Link>
   );
 }
 

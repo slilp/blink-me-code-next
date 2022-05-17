@@ -5,6 +5,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import portfolios, { PortfolioDetail, PortfolioList } from "config/portfolios";
 import { Tag } from "utils/enum";
+import { FaGithub } from "react-icons/fa";
 interface PortfolioProps {
   title: string;
   desc: string;
@@ -12,6 +13,7 @@ interface PortfolioProps {
   tags: Tag[];
   pic: string;
   link: string;
+  git: string;
   detail: PortfolioDetail[];
 }
 
@@ -20,6 +22,7 @@ const PortfolioContent: NextPage<PortfolioProps> = ({
   desc,
   theme,
   tags,
+  git,
   pic,
   link,
   detail,
@@ -77,6 +80,20 @@ const PortfolioContent: NextPage<PortfolioProps> = ({
           {"Let's Go 🚀"}
         </button>
       </div>
+      <br></br>
+      {git !== "" && (
+        <button
+          onClick={() => {
+            window.open(git, "_blank");
+          }}
+          className="text-white  mx-auto text-lg bg-blue-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44 flex justify-around items-center"
+        >
+          <span>
+            <FaGithub></FaGithub>
+          </span>
+          <span>Github</span>
+        </button>
+      )}
     </div>
   );
 };
@@ -110,6 +127,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       theme: data.theme,
       tags: data.tags,
       link: data.link,
+      git: data.git,
       detail: data.detail,
     },
   };

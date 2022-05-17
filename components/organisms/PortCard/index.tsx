@@ -53,11 +53,13 @@ function PortCard({ id, title, tags, desc, pic, url, link }: PortCardProps) {
           >
             {"Let's Go 🚀"}
           </button>
-          <Link href={PORTFOLIO_URL + link} passHref>
-            <button className="text-lg border-2 border-blue-600 rounded-lg p-2 hover:opacity-80 hover:transition w-44 mx-auto lg:mx-0">
-              Read more
-            </button>
-          </Link>
+          {link !== "" && (
+            <Link href={PORTFOLIO_URL + link} passHref>
+              <button className="text-lg border-2 border-blue-600 rounded-lg p-2 hover:opacity-80 hover:transition w-44 mx-auto lg:mx-0">
+                Read more
+              </button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

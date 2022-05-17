@@ -21,7 +21,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nodejs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}express-api-1`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3-%E0%B8%95%E0%B8%AD%E0%B8%99-1-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-express-node-js-mysql-swequelize-4695e6e12421",
     tags: [Tag.NODE],
   },
   {
@@ -31,7 +31,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nodejs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}express-api-2`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3-%E0%B8%95%E0%B8%AD%E0%B8%99-2-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-express-node-js-mysql-swequelize-6b99cb2c2ce4",
     tags: [Tag.NODE],
   },
   {
@@ -41,7 +41,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nodejs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}express-api-3`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3-%E0%B8%95%E0%B8%AD%E0%B8%99-3-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-express-node-js-mysql-swequelize-a417337eb3cd",
     tags: [Tag.NODE],
   },
   {
@@ -51,7 +51,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nodejs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}express-api-4`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3-%E0%B8%95%E0%B8%AD%E0%B8%99-4-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-express-node-js-mysql-swequelize-fb615c9fc0ad",
     tags: [Tag.NODE],
   },
   {
@@ -61,7 +61,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nodejs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}express-api-5`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3-%E0%B8%95%E0%B8%AD%E0%B8%99-5-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-express-node-js-mysql-swequelize-2b648f8fecb3",
     tags: [Tag.NODE],
   },
   {
@@ -71,7 +71,7 @@ const posts: PostDetail[] = [
     pic: "/blog/jest.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}react-testing-1`,
+    link: "https://medium.com/@slil.puangpoom/react-testing-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-1-8b8b6ee03ff5",
     tags: [Tag.REACT],
   },
   {
@@ -81,7 +81,7 @@ const posts: PostDetail[] = [
     pic: "/blog/jest.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}react-testing-2`,
+    link: "https://medium.com/@slil.puangpoom/react-testing-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-2-aeba35a5c2e8",
     tags: [Tag.REACT],
   },
   {
@@ -91,7 +91,7 @@ const posts: PostDetail[] = [
     pic: "/blog/jest.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}react-testing-3`,
+    link: "https://medium.com/@slil.puangpoom/react-testing-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-3-bd73a7a912c9",
     tags: [Tag.REACT],
   },
   {
@@ -101,7 +101,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nestjs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}nest-api-1`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-restful-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-nestjs-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-1-8eadc4ea245",
     tags: [Tag.NEST, Tag.NODE],
   },
   {
@@ -111,7 +111,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nestjs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}nest-api-2`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-restful-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-nestjs-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-2-ac099c5d3562",
     tags: [Tag.NEST, Tag.NODE],
   },
   {
@@ -121,7 +121,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nestjs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}nest-api-3`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-restful-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-nestjs-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-3-3ea3643d9be3",
     tags: [Tag.NEST, Tag.NODE],
   },
   {
@@ -131,7 +131,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nestjs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}nest-api-4`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-restful-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-nestjs-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-4-993003db84f4",
     tags: [Tag.NEST, Tag.NODE],
   },
   {
@@ -141,7 +141,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nestjs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}nest-api-5`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-restful-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-nestjs-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-5-9f44243218f5",
     tags: [Tag.NEST, Tag.NODE],
   },
   {
@@ -151,7 +151,7 @@ const posts: PostDetail[] = [
     pic: "/blog/nestjs.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}nest-api-6`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-restful-apis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-nestjs-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-6-9702a7cd9127",
     tags: [Tag.NEST, Tag.NODE],
   },
   {
@@ -161,7 +161,7 @@ const posts: PostDetail[] = [
     pic: "/blog/programing.png",
     published: "",
     creator: "Slil Puangpoom",
-    link: `${BLOG_URL}why-oop`,
+    link: "https://medium.com/@slil.puangpoom/%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87-object-oriented-programming-oop-dfb9adbb453e",
     tags: [Tag.OTHER],
   },
 ];

@@ -25,7 +25,10 @@ function Contact() {
         </button>
         <button
           onClick={() => {
-            window.open("https://www.linkedin.com", "_blank");
+            window.open(
+              "https://www.linkedin.com/in/slil-puangpoom-1926b5154",
+              "_blank"
+            );
           }}
           className="text-white text-lg flex items-center justify-around gap-2 bg-sky-600 rounded-lg p-4 hover:opacity-90 hover:transition w-64"
         >
@@ -36,7 +39,7 @@ function Contact() {
         </button>
         <button
           onClick={() => {
-            window.open("https://linevoom.line.me", "_blank");
+            window.open("https://line.me/ti/p/22KbxkgAoV", "_blank");
           }}
           className="text-white text-lg flex items-center justify-around gap-2 bg-green-600 rounded-lg p-4 hover:opacity-90 hover:transition w-64"
         >
