@@ -20,7 +20,7 @@ const Layout: FC<Props> = ({ children }) => {
     <>
       <Head>
         <title>Blink Me Code</title>
-        <meta property="og:image" content="meta.png" />
+        <meta property="og:image" content="/meta.png" />
       </Head>
       <NavBar></NavBar>
       <main
