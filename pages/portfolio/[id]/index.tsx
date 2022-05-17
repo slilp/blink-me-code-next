@@ -101,9 +101,11 @@ const PortfolioContent: NextPage<PortfolioProps> = ({
 export default PortfolioContent;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const allPath = portfolios.map((portfolio) => ({
-    params: { id: portfolio.more },
-  }));
+  const allPath = portfolios
+    .filter((port) => port.more !== "")
+    .map((portfolio) => ({
+      params: { id: portfolio.more },
+    }));
   return {
     paths: allPath,
     fallback: false,
