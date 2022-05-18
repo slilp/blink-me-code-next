@@ -19,22 +19,22 @@ function Header() {
         </p>
         <br></br>
 
-        <button className=" text-white  text-lg lg:text-xl bg-blue-600 rounded-full p-4 hover:opacity-90 hover:transition w-96">
+        <button className="  text-lg lg:text-xl bg-blue-600 rounded-full p-4 hover:opacity-90 hover:transition w-96">
           <a
             href="/SLIL_PUANGPOOM_Resume.pdf"
             download
-            className="flex  items-center justify-center gap-3 m-0 w-full h-full"
+            className="flex text-white  items-center justify-center gap-3 m-0 w-full h-full"
           >
             <BsPersonCircle> </BsPersonCircle>
             Click to Download My Resume !
           </a>
         </button>
       </div>
-      <div className="mx-auto my-6 order-1 md:order-2">
+      <div className="my-3 order-1 md:order-2 flex items-center justify-center">
         <Image
           src="/home_header.jpg"
           alt="home"
-          width={400}
+          width={370}
           height={300}
           layout="fixed"
           className="rounded "
