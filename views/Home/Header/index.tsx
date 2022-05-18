@@ -19,7 +19,7 @@ function Header() {
         </p>
         <br></br>
 
-        <button className="  text-lg lg:text-xl bg-blue-600 rounded-full p-4 hover:opacity-90 hover:transition w-96">
+        <button className="  text-lg lg:text-xl bg-blue-600 rounded-full p-4 hover:opacity-90 hover:transition w-full md:w-1/2">
           <a
             href="/SLIL_PUANGPOOM_Resume.pdf"
             download

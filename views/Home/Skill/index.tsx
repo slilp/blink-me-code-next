@@ -252,40 +252,6 @@ function Skill() {
             className="text-white absolute -top-3 mx-0 left-1/2 bg-blue-600 p-2 rounded-lg"
             style={{ transform: "translate(-50%, 0)" }}
           >
-            BackEnd
-          </div>
-          <br></br>
-          <div className="flex gap-5">
-            <div>
-              <Image
-                src="/icon/golang_logo.png"
-                alt="Go"
-                width={100}
-                height={85}
-                layout="fixed"
-                className="rounded "
-              ></Image>
-              <p>Golang</p>
-            </div>
-            <div>
-              <Image
-                src="/icon/gin_logo.png"
-                alt="Gin"
-                width={100}
-                height={85}
-                layout="fixed"
-                className="rounded "
-              ></Image>
-              <p>Gin Framework</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="relative border-2 border-blue-600 p-4 h-44 text-center">
-          <div
-            className="text-white absolute -top-3 mx-0 left-1/2 bg-blue-600 p-2 rounded-lg"
-            style={{ transform: "translate(-50%, 0)" }}
-          >
             Blockchain
           </div>
           <br></br>
