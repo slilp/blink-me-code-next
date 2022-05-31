@@ -125,8 +125,8 @@ function Skill() {
               <Image
                 src="/icon/nodejs_logo.jpeg"
                 alt="Node.js"
-                width={100}
-                height={85}
+                width={80}
+                height={75}
                 layout="fixed"
                 className="rounded "
               ></Image>
@@ -136,7 +136,7 @@ function Skill() {
               <Image
                 src="/icon/express_logo.png"
                 alt="Express"
-                width={135}
+                width={100}
                 height={85}
                 layout="fixed"
                 className="rounded"
@@ -183,8 +183,8 @@ function Skill() {
               <Image
                 src="/icon/postman_logo.png"
                 alt="Postman"
-                width={225}
-                height={85}
+                width={185}
+                height={75}
                 layout="fixed"
                 className="rounded "
               ></Image>

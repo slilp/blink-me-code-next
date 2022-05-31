@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="my-10 bg-transparent">
+    <footer className="my-10 bg-transparent mx-4">
       <hr className="my-6 dark:border-white border-gray-700 lg:my-8" />
 
       <div className="container mx-auto">

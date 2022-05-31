@@ -9,7 +9,7 @@ function NavBar() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <nav className="my-5">
+    <nav className="my-5 px-4 ">
       <div className="container grid grid-cols-2 lg:grid-cols-3 h-20 items-center mx-auto ">
         <Link href="/" passHref>
           <div className="flex items-center font-bold text-2xl md:text-3xl gap-1 pl-2 cursor-pointer">

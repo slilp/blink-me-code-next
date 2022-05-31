@@ -44,7 +44,7 @@ function PortCard({ id, title, tags, desc, pic, url, link }: PortCardProps) {
         </p>
         <p className="text-md">{desc}</p>
         <br></br>
-        <div className="grid md:grid-cols-2 grid-cols-1 lg:w-1/2 gap-2">
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:w-2/3 gap-2">
           <button
             onClick={() => {
               window.open(url, "_blank");
