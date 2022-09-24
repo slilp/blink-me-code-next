@@ -151,7 +151,7 @@ const portfolios: PortfolioList[] = [
     id: "000004",
     title: "Ecommerce Platform",
     desc: "Frontend + Backend for example ecommerce platform",
-    pic: "ecom_1.png",
+    pic: "ecom-1.png",
     link: "https://github.com/slilp/ecommerce-platform",
     git: "",
     tags: [Tag.NODE, Tag.REACT],
