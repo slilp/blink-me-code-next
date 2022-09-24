@@ -13,9 +13,10 @@ function Header() {
         <br></br>
         <p className="text-lg lg:text-xl font-thin mb-5 ">
           I have 4 years experienced in web development with passionate in full
-          stack development. My tech stacks are React.js + Node.js (present) or
-          React + .NET Core. But I open to learn new technology other than in my
-          official job and building my own projects.
+          stack development. My main official skill is frontend base in React
+          but I also confident to work in both frontend/backend (React.js +
+          Node.js) . Moreover I open to learn new technology other than in my
+          official job like and building my own projects.
         </p>
         <br></br>
 

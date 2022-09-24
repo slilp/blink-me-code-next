@@ -37,18 +37,18 @@ const menus: MenuList[] = [
     label: Tag.NODE,
     pic: "/icon/nodejs.svg",
   },
-  {
-    id: "go",
-    tag: Tag.GO,
-    label: Tag.GO,
-    pic: "/icon/golang_logo.png",
-  },
-  {
-    id: "blockchain",
-    tag: Tag.BLOCK,
-    label: Tag.BLOCK,
-    pic: "/icon/btc.png",
-  },
+  // {
+  //   id: "go",
+  //   tag: Tag.GO,
+  //   label: Tag.GO,
+  //   pic: "/icon/golang_logo.png",
+  // },
+  // {
+  //   id: "blockchain",
+  //   tag: Tag.BLOCK,
+  //   label: Tag.BLOCK,
+  //   pic: "/icon/btc.png",
+  // },
   {
     id: "other",
     tag: Tag.OTHER,

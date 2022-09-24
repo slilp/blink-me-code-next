@@ -34,15 +34,9 @@ function BlogCard({
       className="p-2 relative cursor-pointer border-2 border-transparent rounded-xl transition duration-200 hover:border-sky-500"
       style={{ minHeight: "375px" }}
     >
-      <div
-        style={{
-          backgroundImage: `url("${pic}")`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          imageRendering: "-webkit-optimize-contrast",
-        }}
-        className="relative h-40 w-full rounded-xl mb-3"
-      ></div>
+      <div className="relative h-40 w-full rounded-xl mb-3">
+        <Image src={pic} layout="fill" objectFit="contain"></Image>
+      </div>
       <div className="h-6 flex gap-1 my-5">
         {tags.map((tag: Tag) => (
           <div
