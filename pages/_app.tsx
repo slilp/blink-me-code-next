@@ -11,7 +11,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Head>
           <title>Blink Me Code</title>
           <link rel="blink icon" href="/icon/btc.png" />
-          <meta property="og:image" content="/web-cover.png" />
+          <meta
+            property="og:image"
+            content="https://www.blinkmecode.com/_next/image?url=%2Fweb-cover.png&w=1200&q=75"
+          />
         </Head>
         <Component {...pageProps} />
       </Layout>
