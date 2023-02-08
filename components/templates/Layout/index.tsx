@@ -18,17 +18,14 @@ const Layout: FC<Props> = ({ children }) => {
 
   return (
     <>
-      <Head>
-        <title>Blink Me Code</title>
-      </Head>
-      <NavBar></NavBar>
+      <NavBar />
       <main
         className="container mx-auto px-4 my-4"
         style={{ minHeight: "74.5vh" }}
       >
         {children}
       </main>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };
