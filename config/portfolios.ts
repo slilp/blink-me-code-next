@@ -63,7 +63,7 @@ const portfolios: PortfolioList[] = [
   },
   {
     id: "000002",
-    title: "Ready to go Dashboard!",
+    title: "Ready to Go - Dashboard !",
     desc: "Everything you need for start a dashboard project.",
     pic: "dashboard-1.png",
     link: "https://blink-dashboard-stack.vercel.app/login",
