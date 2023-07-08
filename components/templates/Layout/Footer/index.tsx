@@ -17,14 +17,14 @@ function Footer() {
               1 % Better Every Day 🚀
             </div>
             <div className="flex flex-row md:flex-col text-xl gap-3 justify-center md:items-end">
-              <Link href="/blog">Blog</Link>
-              <Link href="/portfolio">Portfolio</Link>
+              <Link href="/blog">Blogs</Link>
+              <Link href="/portfolio">Portfolios</Link>
               <Link href="/contact">Contact</Link>
             </div>
           </div>
         </div>
         <span className="hidden md:block text-sm">
-          © 2022 . All Rights Reserved.
+          © 2023 . All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0"></div>
       </div>

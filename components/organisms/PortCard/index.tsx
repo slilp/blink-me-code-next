@@ -45,20 +45,24 @@ function PortCard({ id, title, tags, desc, pic, url, link }: PortCardProps) {
         <p className="text-md">{desc}</p>
         <br></br>
         <div className="grid md:grid-cols-2 grid-cols-1 lg:w-2/3 gap-2">
-          <button
+          {/* <button
             onClick={() => {
               window.open(url, "_blank");
             }}
             className="text-white  text-lg bg-blue-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44 mx-auto lg:mx-0"
           >
             {"Let's Go 🚀"}
-          </button>
+          </button> */}
+
           {link !== "" && (
-            <Link href={PORTFOLIO_URL + link} passHref>
-              <button className="text-lg border-2 border-blue-600 rounded-lg p-2 hover:opacity-80 hover:transition w-44 mx-auto lg:mx-0">
-                Read more
-              </button>
-            </Link>
+            <button
+              onClick={() => {
+                window.open(link, "_blank");
+              }}
+              className="text-lg border-2 border-blue-600 rounded-lg p-2 hover:opacity-80 hover:transition w-44 mx-auto lg:mx-0"
+            >
+              Read more
+            </button>
           )}
         </div>
       </div>

@@ -16,14 +16,8 @@ const menus: MenuList[] = [
   {
     id: "react",
     tag: Tag.REACT,
-    label: Tag.REACT,
+    label: Tag.REACT + " / " + Tag.NEXT,
     pic: "/icon/react_logo.png",
-  },
-  {
-    id: "nextjs",
-    tag: Tag.NEXT,
-    label: Tag.NEXT,
-    pic: "/icon/nextjs_mini_logo.png",
   },
   {
     id: "nestjs",

@@ -204,17 +204,6 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
-                src="/icon/sql_logo.jpeg"
-                alt="sql"
-                width={100}
-                height={85}
-                layout="fixed"
-                className="rounded "
-              ></Image>
-              <p>SQL server</p>
-            </div>
-            <div>
-              <Image
                 src="/icon/mongo_logo.jpeg"
                 alt="Mongo"
                 width={100}
@@ -235,6 +224,17 @@ function Skill() {
               ></Image>
               <p>MySql</p>
             </div>
+            <div>
+              <Image
+                src="/icon/pg_logo.png"
+                alt="sql"
+                width={100}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>PostgreSQL</p>
+            </div>
           </div>
         </div>
       </div>
@@ -248,24 +248,18 @@ function Skill() {
       </div>
       <div className="flex flex-wrap gap-3 justify-center my-10">
         <div className="relative border-2 border-blue-600 p-4 h-44 text-center">
-          <div
-            className="text-white absolute -top-3 mx-0 left-1/2 bg-blue-600 p-2 rounded-lg"
-            style={{ transform: "translate(-50%, 0)" }}
-          >
-            Blockchain
-          </div>
           <br></br>
           <div className="flex gap-5">
             <div>
               <Image
-                src="/icon/solidity_logo.png"
+                src="/icon/golang_logo.png"
                 alt="solidity"
-                width={100}
+                width={130}
                 height={85}
                 layout="fixed"
                 className="rounded "
               ></Image>
-              <p>Solidity</p>
+              <p>Golang</p>
             </div>
             <div>
               <Image
@@ -277,17 +271,6 @@ function Skill() {
                 className="rounded "
               ></Image>
               <p>Eter.js</p>
-            </div>
-            <div>
-              <Image
-                src="/icon/web3_logo.png"
-                alt="Web3"
-                width={100}
-                height={85}
-                layout="fixed"
-                className="rounded "
-              ></Image>
-              <p>Web3.js</p>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { PortCard } from "components/organisms";
+import { PortCard, FullPortCard } from "components/organisms";
 import portfolios from "config/portfolios";
 import { PortfolioType } from "utils/enum";
 import { FaRegGrinBeamSweat } from "react-icons/fa";
@@ -19,18 +19,31 @@ const Content = ({ search = PortfolioType.FULL }: ContentProp) => {
 
   return (
     <>
-      {data.map((item) => (
-        <PortCard
-          key={`portfolio-code-${item.id}`}
-          id={`portfolio-code-${item.id}`}
-          title={item.title}
-          tags={item.tags}
-          desc={item.desc}
-          pic={`/portfolio/${item.pic}`}
-          url={item.link}
-          link={item.more}
-        />
-      ))}
+      {data.map((item) =>
+        item.type === PortfolioType.MINI ? (
+          <PortCard
+            key={`portfolio-code-${item.id}`}
+            id={`portfolio-code-${item.id}`}
+            title={item.title}
+            tags={item.tags}
+            desc={item.desc}
+            pic={`/portfolio/${item.pic}`}
+            url={item.link}
+            link={item.link}
+          />
+        ) : (
+          <FullPortCard
+            key={`portfolio-code-${item.id}`}
+            id={`portfolio-code-${item.id}`}
+            title={item.title}
+            tags={item.tags}
+            desc={item.desc}
+            pic={`/portfolio/${item.pic}`}
+            link={item.link}
+            details={item.detail}
+          />
+        )
+      )}
     </>
   );
 };

@@ -1,10 +1,14 @@
 export enum Tag {
   REACT = "React",
   NEST = "NestJS",
-  NEXT = "NextJS",
-  NODE = "NodeJS",
+  NEXT = "Next.js",
+  NODE = "Node.js",
   GO = "Go",
   BLOCK = "Blockchain",
+  NEXT_AUTH = "NextAuth.js",
+  MUI = "MUI",
+  REACT_QUERY = "React Query",
+  I18 = "i18next",
   OTHER = "Other",
 }
 

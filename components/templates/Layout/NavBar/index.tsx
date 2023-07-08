@@ -43,7 +43,7 @@ function NavBar() {
             <li>
               <Link href="/portfolio" passHref>
                 <span className="transition cursor-pointer hover:border-b-2 p-2 hover:border-black dark:hover:border-white">
-                  Portfolio
+                  Portfolios
                 </span>
               </Link>
             </li>

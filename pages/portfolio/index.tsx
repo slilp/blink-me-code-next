@@ -9,11 +9,12 @@ const Portfolio: NextPage = () => {
   return (
     <div>
       <p className="text-5xl text-center font-bold my-10">
-        Personal Project
+        Personal{" "}
         <span className=" ml-2 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-900">
-          Portfolio
+          Projects
         </span>
       </p>
+
       <div className="flex justify-center gap-4 my-10 flex-wrap">
         <button
           className={

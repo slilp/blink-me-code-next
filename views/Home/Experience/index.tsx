@@ -35,8 +35,9 @@ function Experience() {
               <br></br>
               <br></br>
               <ul className="list-disc">
-                <li>React , Redux , Jest , Next.js</li>
-                <li>Web3</li>
+                <li>Next.js, React , Redux , Jest</li>
+                <li>Design system with storybook</li>
+                <li>Web3 , DApp</li>
                 <li>Blockchain projects</li>
               </ul>
             </li>
