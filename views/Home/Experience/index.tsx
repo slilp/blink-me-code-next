@@ -58,7 +58,7 @@ function Experience() {
               </span>
               <h3 className="text-xl mt-4">Software Engineer</h3>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400">
-                2021-07 / 2021-06
+                2021-07 / 2022-06
               </time>
               <br></br>
               <br></br>
