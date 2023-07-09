@@ -66,7 +66,7 @@ const portfolios: PortfolioList[] = [
     title: "Ready to Go Admin Dashboard!",
     desc: "Everything you need for start a dashboard project.",
     pic: "dashboard-1.png",
-    link: "https://blink-dashboard-stack.vercel.app",
+    link: "https://blink-dashboard-stack.vercel.app/login",
     git: "",
     tags: [Tag.NEXT, Tag.MUI, Tag.NEXT_AUTH, Tag.REACT_QUERY, Tag.I18],
     more: "my-blog",
