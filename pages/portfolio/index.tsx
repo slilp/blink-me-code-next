@@ -38,6 +38,28 @@ const Portfolio: NextPage = () => {
         </button>
       </div>
       <Content search={selectSearch} />
+      <div className="flex justify-center gap-4 my-10 flex-wrap">
+        <button
+          className={
+            selectSearch === PortfolioType.FULL
+              ? "text-white border-2 border-blue-600 bg-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition"
+              : "border-2 border-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition"
+          }
+          onClick={() => setSearch(PortfolioType.FULL)}
+        >
+          🚀 Full project
+        </button>
+        <button
+          className={
+            selectSearch === PortfolioType.MINI
+              ? "text-white border-2 border-blue-600 bg-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition"
+              : "border-2 border-blue-600 text-lg rounded-xl p-3 px-6 hover:opacity-90 hover:transition"
+          }
+          onClick={() => setSearch(PortfolioType.MINI)}
+        >
+          🚴 Mini project
+        </button>
+      </div>
     </div>
   );
 };

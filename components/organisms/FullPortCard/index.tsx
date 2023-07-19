@@ -55,9 +55,9 @@ function FullPortCard({
           onClick={() => {
             window.open(link, "_blank");
           }}
-          className="text-white  text-lg bg-blue-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
+          className="text-white  text-lg bg-green-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
         >
-          {"Let's Go 🚀"}
+          {"Live Preview 🎉"}
         </button>
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
@@ -85,9 +85,9 @@ function FullPortCard({
           onClick={() => {
             window.open(link, "_blank");
           }}
-          className="text-white  text-lg bg-blue-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
+          className="text-white  text-lg bg-green-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
         >
-          {"Live Preview 🚀"}
+          {"Live Preview 🎉"}
         </button>
       </div>
     </div>

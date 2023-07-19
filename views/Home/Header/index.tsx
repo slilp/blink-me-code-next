@@ -19,19 +19,19 @@ function Header() {
         </p>
         <br></br>
 
-        <button className="  text-lg lg:text-xl bg-blue-600 rounded-full p-4 hover:opacity-90 hover:transition w-full  lg:w-3/4">
-          <a
-            href="/SLIL_PUANGPOOM_Resume.pdf"
-            download
-            className="flex text-white  items-center justify-center gap-3 m-0 w-full h-full"
-          >
-            <BsPersonCircle> </BsPersonCircle>
-            Click to Download My Resume !
-          </a>
-        </button>
+        <a
+          type="button"
+          href="/SLIL_PUANGPOOM_Resume.pdf"
+          download
+          className="flex items-center gap-3 justify-center text-lg lg:text-xl bg-blue-600 rounded-full p-4 hover:opacity-90 hover:transition w-full  lg:w-3/4"
+        >
+          <BsPersonCircle> </BsPersonCircle>
+          Click to Download My Resume !
+        </a>
       </div>
       <div className="my-3 order-1 md:order-2 flex items-center justify-center">
         <Image
+          priority
           src="/home_header.jpg"
           alt="home"
           width={370}
