@@ -23,7 +23,7 @@ function Header() {
           type="button"
           href="/SLIL_PUANGPOOM_Resume.pdf"
           download
-          className="flex items-center gap-3 justify-center text-lg lg:text-xl bg-blue-600 rounded-full p-4 hover:opacity-90 hover:transition w-full  lg:w-3/4"
+          className="text-white flex items-center gap-3 justify-center text-lg lg:text-xl bg-blue-600 rounded-full p-4 hover:opacity-90 hover:transition w-full  lg:w-3/4"
         >
           <BsPersonCircle> </BsPersonCircle>
           Click to Download My Resume !
