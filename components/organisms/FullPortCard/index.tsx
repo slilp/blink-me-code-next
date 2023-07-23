@@ -70,7 +70,7 @@ function FullPortCard({
           {"Live Preview 🎉"}
         </button>
       </div>
-      <div className="flex overflow-x-auto  gap-4">
+      <div className="flex overflow-x-scroll  gap-4">
         {details.map((detail) => (
           <div
             key={detail.id}
