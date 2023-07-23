@@ -74,7 +74,7 @@ function FullPortCard({
         {details.map((detail) => (
           <div
             key={detail.id}
-            className="flex-1 min-w-fit shadow-lg rounded-lg p-3 dark:bg-gray-700 "
+            className="flex-1 min-w-fit md:min-w-0 shadow-lg rounded-lg p-3 dark:bg-gray-700 "
           >
             <p className="font-bold text-lg my-2">{detail.title}</p>
             <p className="text-md">{detail.desc}</p>
