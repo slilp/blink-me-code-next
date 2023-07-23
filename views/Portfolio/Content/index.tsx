@@ -39,6 +39,8 @@ const Content = ({ search = PortfolioType.FULL }: ContentProp) => {
             tags={item.tags}
             desc={item.desc}
             pic={`/portfolio/${item.pic}`}
+            fromColor={item.fromColor || "black"}
+            toColor={item.toColor || "black"}
             link={item.link}
             details={item.detail}
           />

@@ -9,6 +9,10 @@ export enum Tag {
   MUI = "MUI",
   REACT_QUERY = "React Query",
   I18 = "i18next",
+  PASSPORT = "Passport.js",
+  OPEN_API = "OpenAPI",
+  TYPE_ORM = "TypeORM",
+  POSTGRE = "PostgreSQL",
   OTHER = "Other",
 }
 

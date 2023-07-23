@@ -11,6 +11,8 @@ interface FullPortCardProps {
   desc: string;
   pic: string;
   link: string;
+  fromColor: string;
+  toColor: string;
   details: PortfolioDetail[];
 }
 
@@ -18,14 +20,22 @@ function FullPortCard({
   id,
   title,
   tags,
+  fromColor,
+  toColor,
   desc,
   pic,
   link,
   details,
 }: FullPortCardProps) {
   return (
-    <div>
-      <div className="bg-gradient-to-r from-cyan-500 to-blue-500 md:h-96 h-80 rounded-xl p-4">
+    <div className="my-8">
+      {/* <div className="bg-gradient-to-r from-yellow-500 to-red-500 h-80"></div>
+
+      {fromColor}
+      {toColor} */}
+      <div
+        className={`bg-gradient-to-r from-${fromColor} to-${toColor} md:h-96 h-80 rounded-xl p-4`}
+      >
         <div className="flex gap-5 flex-wrap justify-center">
           {tags.map((tag) => (
             <div
@@ -60,22 +70,24 @@ function FullPortCard({
           {"Live Preview 🎉"}
         </button>
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+      <div className="flex overflow-x-auto  gap-4">
         {details.map((detail) => (
           <div
             key={detail.id}
-            className="shadow-lg rounded-lg p-3 dark:bg-gray-700 "
+            className="flex-1 min-w-fit shadow-lg rounded-lg p-3 dark:bg-gray-700 "
           >
             <p className="font-bold text-lg my-2">{detail.title}</p>
             <p className="text-md">{detail.desc}</p>
             <div className="text-center my-2">
-              <Image
-                alt="dashboard-2"
-                height="150"
-                width="300"
-                src={detail.pic}
-                style={{ borderRadius: "0.5rem" }}
-              />
+              {detail.pic && (
+                <Image
+                  alt="dashboard-2"
+                  height="150"
+                  width="300"
+                  src={detail.pic}
+                  style={{ borderRadius: "0.5rem" }}
+                />
+              )}
             </div>
           </div>
         ))}

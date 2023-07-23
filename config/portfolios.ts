@@ -7,6 +7,8 @@ export interface PortfolioList {
   pic: string;
   git: string;
   more: string;
+  fromColor?: string;
+  toColor?: string;
   link: string;
   tags: Tag[];
   type: PortfolioType;
@@ -71,6 +73,8 @@ const portfolios: PortfolioList[] = [
     tags: [Tag.NEXT, Tag.MUI, Tag.NEXT_AUTH, Tag.REACT_QUERY, Tag.I18],
     more: "my-blog",
     type: PortfolioType.FULL,
+    fromColor: "cyan-500",
+    toColor: "blue-500",
     theme: "",
     detail: [
       {
@@ -90,6 +94,47 @@ const portfolios: PortfolioList[] = [
         title: "🔤 Multi language support",
         desc: "Translation the content into multiple languages that help to attracts international user.",
         pic: "/portfolio/dashboard-4.png",
+      },
+    ],
+  },
+  {
+    id: "000005",
+    title: "Nest.JS Boilerplate",
+    desc: "Start your Nest.JS project with features you want.",
+    pic: "nest-1.png",
+    link: "https://blink-nest-boilerplate.adaptable.app/api",
+    git: "",
+    tags: [
+      Tag.NEST,
+      Tag.NODE,
+      Tag.TYPE_ORM,
+      Tag.POSTGRE,
+      Tag.PASSPORT,
+      Tag.OPEN_API,
+    ],
+    more: "",
+    type: PortfolioType.FULL,
+    theme: "",
+    fromColor: "yellow-500",
+    toColor: "red-500",
+    detail: [
+      {
+        id: "nest-feature-1",
+        title: "🔑 JWT with role-based access control",
+        desc: "set access control to specific path by role",
+        pic: "",
+      },
+      {
+        id: "nest-feature-2",
+        title: "🪣 CRUD with typeorm",
+        desc: "Example setting typeorm and CRUD for 1-Many / Many-Many relations",
+        pic: "",
+      },
+      {
+        id: "nest-feature-3",
+        title: "📔 Swagger OpenAPI",
+        desc: "Autogenerate OpenAPI",
+        pic: "",
       },
     ],
   },
