@@ -71,7 +71,7 @@ function FullPortCard({
         </button>
       </div>
       <p className="block md:hidden">* Scroll to see more features</p>
-      <div className="flex overflow-x-scroll gap-4 mt-3">
+      <div className="flex overflow-x-auto gap-4 mt-3">
         {details.map((detail) => (
           <div
             key={detail.id}
