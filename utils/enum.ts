@@ -4,6 +4,8 @@ export enum Tag {
   NEXT = "Next.js",
   NODE = "Node.js",
   GO = "Go",
+  GIN = "Gin",
+  GORM = "Gorm",
   BLOCK = "Blockchain",
   NEXT_AUTH = "NextAuth.js",
   MUI = "MUI",

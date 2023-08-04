@@ -43,6 +43,7 @@ const Content = ({ search = PortfolioType.FULL }: ContentProp) => {
             toColor={item.toColor || "black"}
             link={item.link}
             details={item.detail}
+            git={item.git}
           />
         )
       )}

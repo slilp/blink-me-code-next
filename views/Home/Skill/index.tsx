@@ -244,7 +244,7 @@ function Skill() {
         <span>
           <FcIdea></FcIdea>
         </span>
-        <span>Skill I am interesting to learn</span>
+        <span>Skill I am interesting to work</span>
       </div>
       <div className="flex flex-wrap gap-3 justify-center my-10">
         <div className="relative border-2 border-blue-600 p-4 h-44 text-center">
@@ -260,17 +260,6 @@ function Skill() {
                 className="rounded "
               ></Image>
               <p>Golang</p>
-            </div>
-            <div>
-              <Image
-                src="/icon/eter_js.png"
-                alt="Eter"
-                width={100}
-                height={85}
-                layout="fixed"
-                className="rounded "
-              ></Image>
-              <p>Eter.js</p>
             </div>
           </div>
         </div>

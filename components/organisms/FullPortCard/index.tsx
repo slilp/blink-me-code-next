@@ -13,6 +13,7 @@ interface FullPortCardProps {
   link: string;
   fromColor: string;
   toColor: string;
+  git: string;
   details: PortfolioDetail[];
 }
 
@@ -26,16 +27,16 @@ function FullPortCard({
   pic,
   link,
   details,
+  git,
 }: FullPortCardProps) {
+  const bgColorClass = `bg-gradient-to-r from-${fromColor} to-${toColor} md:h-96 h-80 rounded-xl p-4`;
+
   return (
     <div className="my-8">
-      {/* <div className="bg-gradient-to-r from-yellow-500 to-red-500 h-80"></div>
+      {/* <div className="bg-gradient-to-r from-emerald-500 to-lime-500 h-80"></div>
+      <div className="bg-gradient-to-r from-yellow-500 to-red-500 h-80"></div> */}
 
-      {fromColor}
-      {toColor} */}
-      <div
-        className={`bg-gradient-to-r from-${fromColor} to-${toColor} md:h-96 h-80 rounded-xl p-4`}
-      >
+      <div className={bgColorClass}>
         <div className="flex gap-5 flex-wrap justify-center">
           {tags.map((tag) => (
             <div
@@ -60,7 +61,15 @@ function FullPortCard({
           imageRendering: "-webkit-optimize-contrast",
         }}
       />
-      <div className="text-center my-3">
+      <div className="text-center my-3 flex gap-4 justify-center">
+        <button
+          onClick={() => {
+            window.open(git, "_blank");
+          }}
+          className="flex gap-3 align-middle justify-center text-white  text-lg bg-gray-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
+        >
+          <FaGithub className="mt-1" /> {"Github"}
+        </button>
         <button
           onClick={() => {
             window.open(link, "_blank");
@@ -93,12 +102,20 @@ function FullPortCard({
           </div>
         ))}
       </div>
-      <div className="text-center my-3">
+      <div className="text-center my-3 flex gap-4 justify-center">
+        <button
+          onClick={() => {
+            window.open(git, "_blank");
+          }}
+          className="flex gap-3 align-middle justify-center text-white  text-lg bg-gray-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
+        >
+          <FaGithub className="mt-1" /> {"Github"}
+        </button>
         <button
           onClick={() => {
             window.open(link, "_blank");
           }}
-          className="text-white  text-lg bg-green-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
+          className="text-white text-lg bg-green-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
         >
           {"Live Preview 🎉"}
         </button>
