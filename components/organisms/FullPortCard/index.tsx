@@ -33,7 +33,7 @@ function FullPortCard({
 
   return (
     <div className="my-8">
-      {/* <div className="bg-gradient-to-r from-emerald-500 to-lime-500 h-80"></div>
+      {/* <div className="bg-gradient-to-r from-green-500 to-emerald-500 h-80"></div>
       <div className="bg-gradient-to-r from-yellow-500 to-red-500 h-80"></div> */}
 
       <div className={bgColorClass}>
