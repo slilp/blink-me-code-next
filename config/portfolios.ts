@@ -73,8 +73,8 @@ const portfolios: PortfolioList[] = [
     tags: [Tag.NEXT, Tag.MUI, Tag.NEXT_AUTH, Tag.REACT_QUERY, Tag.I18],
     more: "my-blog",
     type: PortfolioType.FULL,
-    fromColor: "emerald-500",
-    toColor: "lime-500",
+    fromColor: "lime-500",
+    toColor: "emerald-500",
     theme: "",
     detail: [
       {

@@ -66,7 +66,7 @@ function FullPortCard({
           onClick={() => {
             window.open(git, "_blank");
           }}
-          className="flex gap-3 align-middle justify-center text-white  text-lg bg-gray-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
+          className="flex gap-3 align-middle justify-center text-lg border-2 border-green-600 rounded-lg p-2 hover:opacity-90 hover:transition w-44"
         >
           <FaGithub className="mt-1" /> {"Github"}
         </button>
@@ -102,7 +102,7 @@ function FullPortCard({
           </div>
         ))}
       </div>
-      <div className="text-center my-3 flex gap-4 justify-center">
+      {/* <div className="text-center my-3 flex gap-4 justify-center">
         <button
           onClick={() => {
             window.open(git, "_blank");
@@ -119,7 +119,7 @@ function FullPortCard({
         >
           {"Live Preview 🎉"}
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
