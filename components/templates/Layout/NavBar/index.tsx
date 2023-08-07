@@ -92,7 +92,7 @@ function NavBar() {
         </div>
       </div>
       {open && (
-        <div className="bg-transparent ">
+        <div className="bg-transparent">
           <br></br>
           <div className="flex flex-col justify-center items-center text-2xl font-semibold">
             <div className="border-t-2 border-b-2  border-gray-300 w-full h-14 flex items-center justify-center">
