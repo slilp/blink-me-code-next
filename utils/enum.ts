@@ -3,7 +3,7 @@ export enum Tag {
   NEST = "NestJS",
   NEXT = "Next.js",
   NODE = "Node.js",
-  GO = "Go",
+  GO = "Golang",
   GIN = "Gin",
   GORM = "Gorm",
   BLOCK = "Blockchain",

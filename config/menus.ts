@@ -20,23 +20,17 @@ const menus: MenuList[] = [
     pic: "/icon/react_logo.png",
   },
   {
-    id: "nestjs",
-    tag: Tag.NEST,
-    label: Tag.NEST,
-    pic: "/icon/nestjs_logo.svg",
-  },
-  {
     id: "nodejs",
     tag: Tag.NODE,
-    label: Tag.NODE,
+    label: Tag.NODE + " / " + Tag.NEST,
     pic: "/icon/nodejs.svg",
   },
-  // {
-  //   id: "go",
-  //   tag: Tag.GO,
-  //   label: Tag.GO,
-  //   pic: "/icon/golang_logo.png",
-  // },
+  {
+    id: "go",
+    tag: Tag.GO,
+    label: Tag.GO,
+    pic: "/icon/golang_logo.png",
+  },
   // {
   //   id: "blockchain",
   //   tag: Tag.BLOCK,
