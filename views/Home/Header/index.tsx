@@ -12,10 +12,9 @@ function Header() {
         </p>
         <br></br>
         <p className="text-lg lg:text-xl font-thin mb-5 ">
-          I have 4+ years experienced in web development with passionate in full
-          stack development.Working with React.js / Next.js + Node.js / Nest.js.
-          But I open to learn new technology other than in my official job . You
-          can see more about my information in my own website.
+          I have 4+ years experienced in web development especially on frontend
+          with React.js / Next.js and passionate in full stack so I learn Golang
+          / Node.js and other new technologys more than in my official job.
         </p>
         <br></br>
 
