@@ -15,6 +15,34 @@ function Experience() {
           <ol className="relative  border-l border-gray-600 dark:border-gray-200">
             <li className="mb-10 ml-10">
               <span className="flex absolute -left-2 z-10 bg-blue-600 w-4 h-4 rounded-full "></span>
+              <div className="relative h-44 w-44 rounded-lg mb-5">
+                <Image
+                  src="/dime-logo.png"
+                  alt="Dime"
+                  layout="fill"
+                  objectFit="fill"
+                  className="rounded-lg"
+                />
+              </div>
+              <div className="relative w-full h-full"></div>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 p-1 rounded-lg ">
+                Full Time
+              </span>
+              <h3 className="text-xl mt-4">Software Engineer</h3>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400">
+                2023-10 / Present
+              </time>
+              <br></br>
+              <br></br>
+              <ul className="list-disc">
+                <li>Implement backend services with Golang</li>
+                <li>Working on Microservice architecture , Redis ,RabbitMQ</li>
+                <li>Mobile development with flutter</li>
+                <li>Financial projects</li>
+              </ul>
+            </li>
+            <li className="mb-10 ml-10">
+              <span className="flex absolute -left-2 z-10 bg-blue-600 w-4 h-4 rounded-full "></span>
               <div className="relative h-36 w-56 rounded-lg mb-5 border-2 border-blue-300 dark:border-none">
                 <Image
                   src="/ascend_logo.jpeg"
@@ -30,7 +58,7 @@ function Experience() {
               </span>
               <h3 className="text-xl mt-4">Senior Software Engineer</h3>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400">
-                2022-07 / Present
+                2022-07 / 2023-10
               </time>
               <br></br>
               <br></br>

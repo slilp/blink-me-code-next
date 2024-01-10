@@ -12,12 +12,10 @@ function Header() {
         </p>
         <br></br>
         <p className="text-lg lg:text-xl font-thin mb-5 ">
-          I have 4+ years experienced in web development especially on frontend
-          with React.js / Next.js and passionate in full stack so I learn Golang
-          / Node.js and other new technologys more than in my official job.
+          I have 5 years experienced in software development both frontend and
+          backend with modern technology stack like React.js / Next.js / Golang.
         </p>
         <br></br>
-
         <a
           type="button"
           href="/SLIL_PUANGPOOM_Resume.pdf"

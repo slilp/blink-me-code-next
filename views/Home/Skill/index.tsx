@@ -112,6 +112,8 @@ function Skill() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-wrap gap-3 justify-center">
         <div className="relative border-2 border-blue-600 p-4 h-44 text-center">
           <div
             className="text-white absolute -top-3 mx-0 left-1/2 bg-blue-600 p-2 rounded-lg"
@@ -123,6 +125,17 @@ function Skill() {
           <div className="flex gap-5">
             <div>
               <Image
+                src="/icon/golang_logo.png"
+                alt="solidity"
+                width={130}
+                height={85}
+                layout="fixed"
+                className="rounded "
+              ></Image>
+              <p>Golang</p>
+            </div>
+            <div>
+              <Image
                 src="/icon/nodejs_logo.jpeg"
                 alt="Node.js"
                 width={80}
@@ -131,17 +144,6 @@ function Skill() {
                 className="rounded "
               ></Image>
               <p>Node.js</p>
-            </div>
-            <div>
-              <Image
-                src="/icon/express_logo.png"
-                alt="Express"
-                width={100}
-                height={85}
-                layout="fixed"
-                className="rounded"
-              ></Image>
-              <p>Express.js</p>
             </div>
             <div>
               <Image
@@ -239,31 +241,6 @@ function Skill() {
         </div>
       </div>
       <br></br>
-
-      <div className="flex text-2xl gap-3 items-center my-5 font-semibold">
-        <span>
-          <FcIdea></FcIdea>
-        </span>
-        <span>Skill I am interesting to work</span>
-      </div>
-      <div className="flex flex-wrap gap-3 justify-center my-10">
-        <div className="relative border-2 border-blue-600 p-4 h-44 text-center">
-          <br></br>
-          <div className="flex gap-5">
-            <div>
-              <Image
-                src="/icon/golang_logo.png"
-                alt="solidity"
-                width={130}
-                height={85}
-                layout="fixed"
-                className="rounded "
-              ></Image>
-              <p>Golang</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </>
   );
 }
